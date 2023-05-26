@@ -1,0 +1,22 @@
+Radu Vlad Rares - 341 C3
+
+	Syntactic analysis
+
+		The code performs the syntactic and lexical analysis for the LCPL language, after this analysis results in an AST.
+
+		The lexical analysis is carried out in the file "lcpl.l" in which we added new token definitions as well as a new
+		regular expression for the strings that the syntactic analyzer receives as input.
+
+		The syntactic analysis describes the syntactic structure of the LCPL language, receiving as input the tokens of the
+		lexical analyzer that will result in nodes in the AST. Each rule from the syntactic analysis depending on the case
+		takes the tokens from the lexical analyzer and performs the syntactic analysis. This is also where the grammar
+		associated with the LCPL language was written. We added new non-terminals to create precedent for operations like this:
+			1 -> ., [method], string, {}, if, while;
+			2 -> "- Unary";
+			3 -> "*", "/";
+			4 -> "+", "-";
+			5 -> "<", "<=", "==";
+			6 -> NEW operator, "!" and "SELF".
+
+	The difficulties encountered were for the KW_LOCAL token because it correctly parsed a structure that contained several
+	statements but did not add my line_number, that is, it gave me the line number of the first statement in the KW_LOCAL block.
