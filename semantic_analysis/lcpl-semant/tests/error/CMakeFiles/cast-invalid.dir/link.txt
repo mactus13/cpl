@@ -1,0 +1,1 @@
+/usr/local/bin/g++-5    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cast-invalid.dir/__/TestRig.cpp.o CMakeFiles/cast-invalid.dir/cast-invalidTestRig.cpp.o  -o cast-invalid  ../../liblcpl-semant.a 

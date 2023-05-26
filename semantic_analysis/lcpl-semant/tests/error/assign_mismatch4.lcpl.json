@@ -1,0 +1,173 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "print",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 3,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 4,
+                                "LineNumber": 3,
+                                "Name": "s",
+                                "Type": "String"
+                            },
+                            {
+                                "NodeType": "Assignment",
+                                "NodeID": 5,
+                                "LineNumber": 4,
+                                "LeftHandSide": "s",
+                                "RightHandSide": {
+                                    "NodeType": "IfStatement",
+                                    "NodeID": 6,
+                                    "LineNumber": 4,
+                                    "Condition": {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 7,
+                                        "LineNumber": 4,
+                                        "OperatorKind": "<=",
+                                        "LeftHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 8,
+                                            "LineNumber": 4,
+                                            "Value": 0
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 9,
+                                            "LineNumber": 4,
+                                            "Name": "x"
+                                        }
+                                    },
+                                    "Then": {
+                                        "NodeType": "Block",
+                                        "NodeID": 10,
+                                        "LineNumber": 4
+                                    },
+                                    "Else": {
+                                        "NodeType": "Block",
+                                        "NodeID": 11,
+                                        "LineNumber": 6,
+                                        "Expressions": [
+                                            {
+                                                "NodeType": "BinaryOperator",
+                                                "NodeID": 12,
+                                                "LineNumber": 6,
+                                                "OperatorKind": "+",
+                                                "LeftHandSide": {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 13,
+                                                    "LineNumber": 6,
+                                                    "Value": "Minus "
+                                                },
+                                                "RightHandSide": {
+                                                    "NodeType": "UnaryOperator",
+                                                    "NodeID": 14,
+                                                    "LineNumber": 6,
+                                                    "OperatorKind": "-",
+                                                    "Operand": {
+                                                        "NodeType": "Symbol",
+                                                        "NodeID": 15,
+                                                        "LineNumber": 6,
+                                                        "Name": "x"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 16,
+                                "LineNumber": 8,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 17,
+                                        "LineNumber": 8,
+                                        "Name": "s"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 18,
+                            "LineNumber": 2,
+                            "Name": "x",
+                            "Type": "Int"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 19,
+                    "LineNumber": 11,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 20,
+                        "LineNumber": 12,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 21,
+                                "LineNumber": 12,
+                                "Name": "print",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "UnaryOperator",
+                                        "NodeID": 22,
+                                        "LineNumber": 12,
+                                        "OperatorKind": "-",
+                                        "Operand": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 23,
+                                            "LineNumber": 12,
+                                            "Value": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 24,
+                                "LineNumber": 13,
+                                "Name": "print",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "IntegerConstant",
+                                        "NodeID": 25,
+                                        "LineNumber": 13,
+                                        "Value": 25
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

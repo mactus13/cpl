@@ -1,0 +1,113 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "q",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 2,
+                    "LineNumber": 3,
+                    "Name": "val",
+                    "Type": "Int",
+                    "Initializer": {
+                        "NodeType": "IntegerConstant",
+                        "NodeID": 3,
+                        "LineNumber": 3,
+                        "Value": 4
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 4,
+            "LineNumber": 7,
+            "Name": "p",
+            "Parent": "q",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 5,
+                    "LineNumber": 9,
+                    "Name": "val",
+                    "Type": "Int",
+                    "Initializer": {
+                        "NodeType": "IntegerConstant",
+                        "NodeID": 6,
+                        "LineNumber": 9,
+                        "Value": 5
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 7,
+                    "LineNumber": 11,
+                    "Name": "val",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 8,
+                        "LineNumber": 11,
+                        "Expressions": [
+                            {
+                                "NodeType": "Symbol",
+                                "NodeID": 9,
+                                "LineNumber": 11,
+                                "Name": "val"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 10,
+            "LineNumber": 15,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 11,
+                    "LineNumber": 16,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 12,
+                        "LineNumber": 17,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 13,
+                                "LineNumber": 17,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 14,
+                                        "LineNumber": 17,
+                                        "Name": "val",
+                                        "Object": {
+                                            "NodeType": "NewObject",
+                                            "NodeID": 15,
+                                            "LineNumber": 17,
+                                            "Type": "p"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

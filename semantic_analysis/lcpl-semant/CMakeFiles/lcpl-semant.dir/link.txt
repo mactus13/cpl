@@ -1,0 +1,2 @@
+/usr/bin/ar cq liblcpl-semant.a  CMakeFiles/lcpl-semant.dir/src/ASTSerialization.cpp.o CMakeFiles/lcpl-semant.dir/src/ASTVisitor.cpp.o CMakeFiles/lcpl-semant.dir/src/SemanticAnalysis.cpp.o CMakeFiles/lcpl-semant.dir/src/SemanticException.cpp.o CMakeFiles/lcpl-semant.dir/src/SymbolTable.cpp.o CMakeFiles/lcpl-semant.dir/src/TypeTable.cpp.o
+/usr/bin/ranlib liblcpl-semant.a

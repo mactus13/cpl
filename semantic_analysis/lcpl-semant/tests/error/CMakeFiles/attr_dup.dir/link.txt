@@ -1,0 +1,1 @@
+/usr/local/bin/g++-5    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/attr_dup.dir/__/TestRig.cpp.o CMakeFiles/attr_dup.dir/attr_dupTestRig.cpp.o  -o attr_dup  ../../liblcpl-semant.a 

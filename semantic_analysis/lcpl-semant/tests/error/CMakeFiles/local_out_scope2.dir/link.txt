@@ -1,0 +1,1 @@
+/usr/local/bin/g++-5    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/local_out_scope2.dir/__/TestRig.cpp.o CMakeFiles/local_out_scope2.dir/local_out_scope2TestRig.cpp.o  -o local_out_scope2  ../../liblcpl-semant.a 

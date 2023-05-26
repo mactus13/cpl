@@ -1,0 +1,104 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "s",
+            "Parent": "Int",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "add2",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 2,
+                        "Expressions": [
+                            {
+                                "NodeType": "BinaryOperator",
+                                "NodeID": 4,
+                                "LineNumber": 2,
+                                "OperatorKind": "+",
+                                "LeftHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 5,
+                                    "LineNumber": 2,
+                                    "Name": "self"
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "IntegerConstant",
+                                    "NodeID": 6,
+                                    "LineNumber": 2,
+                                    "Value": 2
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 7,
+            "LineNumber": 5,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 8,
+                    "LineNumber": 6,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 9,
+                        "LineNumber": 7,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 10,
+                                "LineNumber": 8,
+                                "Name": "i",
+                                "Type": "s",
+                                "Initializer": {
+                                    "NodeType": "NewObject",
+                                    "NodeID": 11,
+                                    "LineNumber": 8,
+                                    "Type": "s"
+                                }
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 12,
+                                "LineNumber": 10,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 13,
+                                        "LineNumber": 10,
+                                        "Name": "add2",
+                                        "Object": {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 14,
+                                            "LineNumber": 10,
+                                            "Name": "i"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+class Main inherits IO
+    mac Int a, Int b, String a -> String : a + b * a; end;
+    main :
+        [out [mac 1, 2, "3"]];
+    end;
+end;

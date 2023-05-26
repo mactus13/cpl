@@ -1,0 +1,77 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "x",
+                    "Type": "Int",
+                    "Initializer": {
+                        "NodeType": "IntegerConstant",
+                        "NodeID": 3,
+                        "LineNumber": 2,
+                        "Value": 10
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 4,
+                    "LineNumber": 3,
+                    "Name": "value",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 5,
+                        "LineNumber": 3,
+                        "Expressions": [
+                            {
+                                "NodeType": "Symbol",
+                                "NodeID": 6,
+                                "LineNumber": 3,
+                                "Name": "x"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 7,
+                    "LineNumber": 4,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 8,
+                        "LineNumber": 5,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 9,
+                                "LineNumber": 5,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 10,
+                                        "LineNumber": 5,
+                                        "Name": "value"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

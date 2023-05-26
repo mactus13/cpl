@@ -1,0 +1,6 @@
+class Main inherits IO
+    value -> String : 5; end;
+    main :
+        [out [value]];
+    end;
+end;

@@ -1,0 +1,121 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "x",
+                    "Type": "Int",
+                    "Initializer": {
+                        "NodeType": "IntegerConstant",
+                        "NodeID": 3,
+                        "LineNumber": 2,
+                        "Value": 10
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 4,
+                    "LineNumber": 3,
+                    "Name": "value",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 5,
+                        "LineNumber": 3,
+                        "Expressions": [
+                            {
+                                "NodeType": "Symbol",
+                                "NodeID": 6,
+                                "LineNumber": 3,
+                                "Name": "x"
+                            },
+                            {
+                                "NodeType": "IfStatement",
+                                "NodeID": 7,
+                                "LineNumber": 3,
+                                "Condition": {
+                                    "NodeType": "BinaryOperator",
+                                    "NodeID": 8,
+                                    "LineNumber": 3,
+                                    "OperatorKind": "==",
+                                    "LeftHandSide": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 9,
+                                        "LineNumber": 3,
+                                        "Name": "x"
+                                    },
+                                    "RightHandSide": {
+                                        "NodeType": "IntegerConstant",
+                                        "NodeID": 10,
+                                        "LineNumber": 3,
+                                        "Value": 10
+                                    }
+                                },
+                                "Then": {
+                                    "NodeType": "Block",
+                                    "NodeID": 11,
+                                    "LineNumber": 3,
+                                    "Expressions": [
+                                        {
+                                            "NodeType": "Dispatch",
+                                            "NodeID": 12,
+                                            "LineNumber": 3,
+                                            "Name": "out",
+                                            "Arguments": [
+                                                {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 13,
+                                                    "LineNumber": 3,
+                                                    "Value": "ten "
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 14,
+                    "LineNumber": 4,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 15,
+                        "LineNumber": 5,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 16,
+                                "LineNumber": 5,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 17,
+                                        "LineNumber": 5,
+                                        "Name": "value"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

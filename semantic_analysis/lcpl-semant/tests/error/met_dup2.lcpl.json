@@ -1,0 +1,127 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "p",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "val",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 2,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 4,
+                                "LineNumber": 2,
+                                "Value": 4
+                            }
+                        ]
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 5,
+                    "LineNumber": 3,
+                    "Name": "val",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 6,
+                        "LineNumber": 3,
+                        "Expressions": [
+                            {
+                                "NodeType": "BinaryOperator",
+                                "NodeID": 7,
+                                "LineNumber": 3,
+                                "OperatorKind": "+",
+                                "LeftHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 8,
+                                    "LineNumber": 3,
+                                    "Name": "x"
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "IntegerConstant",
+                                    "NodeID": 9,
+                                    "LineNumber": 3,
+                                    "Value": 5
+                                }
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 10,
+                            "LineNumber": 3,
+                            "Name": "x",
+                            "Type": "Int"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 11,
+            "LineNumber": 6,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 12,
+                    "LineNumber": 7,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 13,
+                        "LineNumber": 8,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 14,
+                                "LineNumber": 8,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 15,
+                                        "LineNumber": 8,
+                                        "Name": "val",
+                                        "Object": {
+                                            "NodeType": "NewObject",
+                                            "NodeID": 16,
+                                            "LineNumber": 8,
+                                            "Type": "p"
+                                        },
+                                        "Arguments": [
+                                            {
+                                                "NodeType": "IntegerConstant",
+                                                "NodeID": 17,
+                                                "LineNumber": 8,
+                                                "Value": 3
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

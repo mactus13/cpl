@@ -1,0 +1,1440 @@
+Scanning dependencies of target lcpl-semant
+[  1%] Building CXX object CMakeFiles/lcpl-semant.dir/src/SemanticAnalysis.cpp.o
+[  2%] Building CXX object CMakeFiles/lcpl-semant.dir/src/SymbolTable.cpp.o
+[  2%] Building CXX object CMakeFiles/lcpl-semant.dir/src/TypeTable.cpp.o
+[  3%] Linking CXX static library liblcpl-semant.a
+[  4%] Built target lcpl-semant
+[  5%] Linking CXX executable while_invalid
+[  6%] Built target while_invalid
+Cons ** Cons
+Int ** Int
+PASS
+[  6%] Built target run-while_invalid
+[  7%] Linking CXX executable test-error-free
+[  8%] Built target test-error-free
+String ** String
+Void ** IO
+Int ** Int
+Int ** Int
+Vertex ** Vertex
+Void ** Vertex
+IO ** IO
+Object ** Null
+Object ** Vertex
+String ** String
+IO ** IO
+Void ** Void
+Int ** Int
+Int ** Int
+Int ** Int
+IO ** IO
+String ** String
+Void ** IO
+Shape ** Shape
+Int ** Int
+Int ** Int
+Vertex ** Vertex
+Int ** Int
+Int ** Int
+Vertex ** Vertex
+Vertex ** Vertex
+Int ** Int
+Int ** Int
+Vertex ** Vertex
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Vertex ** Vertex
+Vertex ** Null
+Vertex ** Vertex
+Vertex ** Vertex
+Shape ** Null
+Shape ** Triangle
+Shape ** Line
+IO ** Main
+IO ** Main
+Void ** Void
+Poly ** Poly1
+Poly ** Poly3
+PASS
+[  8%] Built target run-attributes-overload
+PASS
+[  8%] Built target run-empty
+String ** String
+A ** A
+String ** String
+B ** B
+Void ** B
+PASS
+[  8%] Built target run-cast
+String ** String
+String ** String
+Line ** Line
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-dispatch2
+Int ** Int
+Void ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+int ** int
+Void ** IO
+PASS
+[  8%] Built target run-cast2
+Object ** Cons
+Object ** Null
+Int ** Int
+Int ** Int
+Int ** Int
+Cons ** Cons
+Void ** Cons
+Cons ** Cons
+Int ** Int
+Int ** Int
+Cons ** Cons
+Void ** Void
+PASS
+[  8%] Built target run-cons
+String ** String
+Void ** IO
+String ** String
+Void ** IO
+IO ** Main
+Shape ** Shape
+IO ** Main
+Void ** Void
+PASS
+[  8%] Built target run-dispatch-shape
+String ** String
+IO ** IO
+String ** String
+IO ** IO
+IO ** Main
+Int ** Int
+Int ** Int
+Shape ** Shape
+IO ** Main
+IO ** Int
+IO ** Int
+Void ** IO
+PASS
+[  8%] Built target run-dispatch-shape2
+Int ** Int
+Int ** Int
+B ** B
+Int ** Int
+Int ** Int
+B ** A
+Int ** Int
+Int ** Int
+B ** B
+Int ** Int
+Int ** Int
+Void ** IO
+PASS
+[  8%] Built target run-dispatch
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-hello
+Int ** Int
+String ** String
+String ** String
+String ** String
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-attributes
+Int ** Int
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+Void ** IO
+String ** String
+Void ** Void
+PASS
+[  8%] Built target run-attributes3
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-expr-statements
+String ** String
+Void ** IO
+Object ** Null
+Object ** Main
+Void ** Void
+PASS
+[  8%] Built target run-expressions
+Void ** Int
+PASS
+[  8%] Built target run-inheritance
+Int ** Int
+Void ** IO
+Int ** Int
+x ** x
+Int ** Int
+Int ** Int
+Int ** Int
+PASS
+[  8%] Built target run-inheritance2
+Int ** Int
+Int ** Int
+Void ** IO
+PASS
+[  8%] Built target run-locals
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+String ** String
+String ** String
+String ** String
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+Void ** IO
+PASS
+[  8%] Built target run-methods
+Int ** Int
+Void ** Int
+Int ** Int
+Void ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+j ** i
+Int ** Int
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-overload
+Void ** String
+PASS
+[  8%] Built target run-runtime-error1
+Void ** B
+PASS
+[  8%] Built target run-runtime-error2
+Void ** Void
+PASS
+[  8%] Built target run-runtime-error3
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-sl-comments
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+String ** String
+Void ** IO
+Int ** Int
+Int ** Int
+String ** String
+Void ** Void
+Cons ** Cons
+Int ** Int
+Void ** Int
+Void ** Int
+Void ** Int
+PASS
+[  8%] Built target run-snippets
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Void ** IO
+PASS
+[  8%] Built target run-statements
+String ** String
+Int ** Int
+Int ** Int
+String ** String
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-string-conv1
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+Void ** IO
+Void ** Void
+PASS
+[  8%] Built target run-attributes2
+String ** String
+Void ** String
+String ** String
+Void ** String
+String ** String
+Int ** Int
+Int ** Int
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-censor
+Cons ** Cons
+Int ** Int
+Object ** Cons
+Object ** Null
+Int ** Int
+String ** String
+Cons ** Cons
+Int ** Int
+Int ** Int
+Cons ** Cons
+Cons ** Cons
+Int ** Int
+Cons ** Cons
+Cons ** Cons
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Cons ** Cons
+Cons ** Cons
+Cons ** Cons
+Void ** IO
+PASS
+[  8%] Built target run-cons2
+String ** String
+String ** String
+String ** String
+Int ** Int
+String ** String
+String ** String
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-io
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Void ** IO
+PASS
+[  8%] Built target run-let1
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Matrix ** Matrix
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Void ** IO
+PASS
+[  8%] Built target run-math-expressions
+String ** String
+String ** String
+String ** String
+IO ** IO
+Void ** IO
+PASS
+[  8%] Built target run-object
+Object ** IO
+Object ** Null
+String ** String
+Int ** Int
+String ** String
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-random-expressions
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Void ** Int
+String ** String
+Void ** IO
+Int ** Int
+Ellipse ** Shape
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Void ** Int
+Int ** Int
+Int ** Int
+Void ** Int
+Ellipse ** Shape
+IO ** IO
+String ** String
+Void ** IO
+Int ** Int
+IO ** Main
+String ** String
+Shape ** Shape
+String ** String
+Void ** IO
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Shape ** Shape
+Int ** Int
+Int ** Int
+Shape ** Shape
+Shape ** Shape
+Shape ** Shape
+Void ** Void
+PASS
+[  8%] Built target run-shapes
+Int ** Int
+Object ** Object
+Item ** Item
+Item ** Item
+Item ** Item
+Object ** Object
+Object ** Object
+Object ** Item
+Object ** Null
+Query ** Query
+Int ** Int
+Int ** Int
+Int ** Int
+Object ** Object
+HasObject ** HasObject
+Object ** Object
+Object ** Object
+Int ** Int
+Object ** Item
+Object ** Null
+Int ** Int
+Object ** Object
+Item ** Item
+Item ** Item
+Void ** Item
+Item ** Item
+Null ** Object
+Object ** Null
+Object ** Object
+Query ** HasObject
+Int ** Int
+Query ** Query
+Int ** Int
+Int ** Int
+String ** String
+HasString ** HasString
+Int ** Int
+Stack ** Stack
+Object ** String
+Void ** Void
+Object ** String
+Object ** Null
+String ** String
+String ** String
+String ** String
+Query ** HasString
+Int ** Int
+String ** String
+Void ** IO
+Int ** Int
+Int ** Int
+Int ** Int
+Object ** StringStack
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Object ** String
+String ** String
+Object ** StringStack
+Object ** StringStack
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Object ** StringStack
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Int ** Int
+Void ** Void
+PASS
+[  8%] Built target run-stack
+String ** String
+Void ** String
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+IntStr ** IntStr
+Void ** IO
+PASS
+[  8%] Built target run-string-conv
+String ** String
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+String ** String
+String ** String
+String ** String
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-string-search-zero
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-string
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+Void ** IO
+String ** String
+String ** String
+String ** String
+String ** String
+Void ** Void
+PASS
+[  8%] Built target run-strlit
+String ** String
+Void ** Void
+String ** String
+String ** String
+Token ** Token
+String ** String
+String ** String
+Int ** Int
+String ** String
+Void ** String
+String ** String
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+String ** String
+Object ** Token
+Object ** Null
+String ** String
+String ** String
+String ** String
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+String ** String
+Int ** Int
+String ** String
+String ** String
+Token ** Token
+String ** String
+String ** String
+Int ** Int
+String ** String
+String ** String
+Token ** Token
+String ** String
+String ** String
+String ** String
+Int ** Int
+String ** String
+String ** String
+String ** String
+String ** String
+Token ** Token
+Int ** Int
+String ** String
+String ** String
+Token ** Token
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** Int
+Object ** Token
+Object ** Null
+String ** String
+String ** String
+Token ** Token
+Token ** Token
+Token ** Token
+String ** String
+Int ** Int
+Param ** Param
+Param ** Param
+Object ** Null
+Object ** Param
+String ** String
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+Param ** Param
+Param ** Param
+Int ** Int
+Void ** Void
+Object ** Param
+Object ** Null
+String ** String
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Code ** Code
+String ** String
+Int ** Int
+Int ** Int
+SymbolTable ** SymbolTable
+CTokenizer ** CTokenizer
+Void ** CTokenizer
+Int ** Int
+Void ** Void
+Token ** Token
+Token ** Token
+String ** String
+String ** String
+String ** String
+Int ** Int
+String ** String
+String ** String
+String ** String
+Int ** Int
+String ** String
+String ** String
+String ** Null
+String ** String
+Object ** String
+Object ** Null
+String ** String
+Object ** String
+Object ** Null
+String ** String
+String ** String
+Void ** Void
+String ** String
+String ** String
+String ** String
+Void ** Void
+String ** String
+Void ** Void
+Int ** Int
+Int ** Int
+Code ** Code
+Code ** Code
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Code ** Code
+String ** String
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+Code ** Code
+Code ** Code
+Code ** Code
+String ** String
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+Code ** Code
+Code ** Code
+Code ** Code
+Code ** Null
+Code ** Code
+Code ** Code
+Code ** Code
+Int ** Int
+Int ** Int
+Code ** Code
+Code ** Code
+String ** String
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+Code ** Code
+Code ** Code
+Code ** Code
+Code ** Null
+Code ** Code
+Code ** Code
+String ** String
+String ** String
+String ** String
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+String ** String
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Code ** Null
+Code ** Code
+Code ** Code
+Code ** Code
+Token ** Token
+String ** String
+String ** String
+CTokenizer ** CTokenizer
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+String ** String
+Void ** IO
+PASS
+[  8%] Built target run-compiler
+Object ** Object
+Item ** Item
+Item ** Item
+Object ** Item
+Object ** Null
+Where ** Where
+Item ** Item
+Object ** Object
+Item ** Item
+Item ** Item
+Object ** Item
+Object ** Null
+Where ** Where
+ResultSet ** ResultSet
+Object ** Object
+Object ** Object
+Void ** Void
+Object ** Object
+Item ** Item
+Item ** Item
+Void ** Item
+Object ** Item
+Object ** Null
+Where ** Where
+Item ** Item
+Void ** Void
+Order ** Order
+Object ** Item
+Object ** Null
+Where ** Where
+ResultSet ** ResultSet
+ResultSet ** ResultSet
+Int ** Int
+Int ** Int
+Object ** Object
+Int ** Int
+Node ** Node
+Node ** Node
+Object ** Object
+Object ** Object
+Object ** Node
+Object ** Null
+Object ** Object
+Int ** Int
+Node ** Node
+Node ** Node
+Object ** Object
+Order ** Order
+Object ** Node
+Object ** Null
+Object ** Object
+Int ** Int
+Node ** Node
+Node ** Node
+Object ** Object
+Order ** Order
+Void ** Void
+Object ** Node
+Object ** Null
+Node ** Node
+Node ** Node
+Node ** Node
+Node ** Node
+Object ** Object
+Int ** Int
+Node ** Node
+Order ** Order
+ResultSet ** ResultSet
+Object ** Node
+Object ** Null
+Object ** Object
+Int ** Int
+Node ** Node
+Object ** Object
+Order ** Order
+Void ** Void
+Object ** Node
+Object ** Null
+Null ** Node
+Iterator ** Iterator
+Node ** Node
+Iterator ** Iterator
+Object ** Node
+Object ** Null
+Null ** Object
+Object ** Null
+Object ** Node
+Object ** Null
+Int ** Int
+Object ** Node
+Object ** Null
+Node ** Node
+Node ** Node
+Node ** Node
+Void ** Node
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Battle ** Battle
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+String ** String
+Void ** IO
+Int ** Int
+Int ** Int
+Int ** Int
+Year ** Year
+Int ** Int
+Int ** Int
+Year ** Year
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+IO ** Main
+Void ** Void
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Object ** Battle
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Object ** Battle
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Object ** Battle
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Object ** Battle
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Object ** Battle
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Object ** Battle
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Object ** Battle
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Object ** Battle
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Object ** Battle
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+Object ** Battle
+String ** String
+Where ** Where
+Order ** ByYear
+ResultSet ** ResultSet
+String ** String
+String ** String
+Where ** WhereDefenderWon
+Order ** ByForcesRatio
+ResultSet ** ResultSet
+String ** String
+String ** String
+Int ** Int
+Int ** Int
+Where ** Year
+Order ** ByYear
+ResultSet ** ResultSet
+String ** String
+String ** String
+Int ** Int
+Where ** Year
+Where ** Where
+Order ** ByYear
+ResultSet ** ResultSet
+Void ** Void
+PASS
+[  8%] Built target run-database
+[  8%] Linking CXX executable arg_dup
+[  9%] Built target arg_dup
+PASS
+[  9%] Built target run-arg_dup
+[  9%] Linking CXX executable attr_dup
+[ 10%] Built target attr_dup
+PASS
+[ 10%] Built target run-attr_dup
+[ 11%] Linking CXX executable attr_dup2
+[ 12%] Built target attr_dup2
+Int ** Int
+PASS
+[ 12%] Built target run-attr_dup2
+[ 13%] Linking CXX executable assign_mismatch
+[ 14%] Built target assign_mismatch
+Int ** Int
+Int ** Int
+Int ** Int
+String ** Void
+PASS
+[ 14%] Built target run-assign_mismatch
+[ 15%] Linking CXX executable assign_mismatch2
+[ 16%] Built target assign_mismatch2
+String ** Int
+String ** Void
+PASS
+[ 16%] Built target run-assign_mismatch2
+[ 16%] Linking CXX executable assign_mismatch3
+[ 17%] Built target assign_mismatch3
+String ** String
+String ** String
+Line ** Circle
+PASS
+[ 17%] Built target run-assign_mismatch3
+[ 18%] Linking CXX executable assign_mismatch4
+[ 19%] Built target assign_mismatch4
+String ** Void
+PASS
+[ 19%] Built target run-assign_mismatch4
+[ 20%] Linking CXX executable assign_mismatch5
+[ 21%] Built target assign_mismatch5
+String ** Void
+PASS
+[ 21%] Built target run-assign_mismatch5
+[ 21%] Linking CXX executable attr-miss
+[ 22%] Built target attr-miss
+PASS
+[ 22%] Built target run-attr-miss
+[ 23%] Linking CXX executable attr-miss2
+[ 24%] Built target attr-miss2
+Int ** Int
+Void ** Int
+Int ** Int
+Int ** Int
+PASS
+[ 24%] Built target run-attr-miss2
+[ 25%] Linking CXX executable attr-miss3
+[ 26%] Built target attr-miss3
+Int ** Int
+Void ** Int
+Int ** Int
+Int ** Int
+intModel ** int
+Int ** Int
+Int ** Int
+Int ** Int
+PASS
+[ 26%] Built target run-attr-miss3
+[ 27%] Linking CXX executable call_invalid
+[ 28%] Built target call_invalid
+Int ** Int
+Int ** Int
+B ** B
+PASS
+[ 28%] Built target run-call_invalid
+[ 28%] Linking CXX executable call_invalid2
+[ 29%] Built target call_invalid2
+Int ** Int
+Int ** Int
+B ** B
+PASS
+[ 29%] Built target run-call_invalid2
+[ 29%] Linking CXX executable call_invalid3
+[ 31%] Built target call_invalid3
+Int ** Int
+Int ** Int
+B ** B
+Int ** Int
+Int ** Int
+B ** A
+Int ** Int
+Int ** Int
+B ** B
+Int ** Int
+Int ** Int
+PASS
+[ 31%] Built target run-call_invalid3
+[ 32%] Linking CXX executable call_invalid4
+[ 33%] Built target call_invalid4
+Int ** Int
+Int ** Int
+Int ** Int
+B ** B
+Int ** Int
+Int ** Int
+B ** A
+Int ** Int
+Int ** Int
+B ** B
+Int ** Int
+Int ** Int
+B ** C
+PASS
+[ 33%] Built target run-call_invalid4
+[ 33%] Linking CXX executable cast-invalid
+[ 34%] Built target cast-invalid
+String ** String
+A ** A
+String ** String
+B ** B
+PASS
+[ 34%] Built target run-cast-invalid
+[ 34%] Linking CXX executable class_dup
+[ 36%] Built target class_dup
+PASS
+[ 36%] Built target run-class_dup
+[ 37%] Linking CXX executable empty-miss
+[ 38%] Built target empty-miss
+PASS
+[ 38%] Built target run-empty-miss
+[ 38%] Linking CXX executable local_out_scope2
+[ 40%] Built target local_out_scope2
+PASS
+[ 40%] Built target run-local_out_scope2
+[ 40%] Linking CXX executable local_out_scope
+[ 41%] Built target local_out_scope
+Cons ** Cons
+Int ** Int
+Object ** Cons
+Object ** Null
+Int ** Int
+Cons ** Cons
+PASS
+[ 41%] Built target run-local_out_scope
+[ 42%] Linking CXX executable main-miss2
+[ 43%] Built target main-miss2
+PASS
+[ 43%] Built target run-main-miss2
+[ 44%] Linking CXX executable main-miss
+[ 45%] Built target main-miss
+PASS
+[ 45%] Built target run-main-miss
+[ 46%] Linking CXX executable met_dup2
+[ 47%] Built target met_dup2
+PASS
+[ 47%] Built target run-met_dup2
+[ 47%] Linking CXX executable met_dup
+[ 48%] Built target met_dup
+PASS
+[ 48%] Built target run-met_dup
+[ 48%] Linking CXX executable met_over2
+[ 49%] Built target met_over2
+String ** String
+IO ** IO
+PASS
+[ 49%] Built target run-met_over2
+[ 50%] Linking CXX executable met_over3
+[ 51%] Built target met_over3
+String ** String
+IO ** IO
+PASS
+[ 51%] Built target run-met_over3
+[ 52%] Linking CXX executable met_over4
+[ 53%] Built target met_over4
+String ** String
+IO ** IO
+PASS
+[ 53%] Built target run-met_over4
+[ 54%] Linking CXX executable met_over
+[ 55%] Built target met_over
+String ** String
+IO ** IO
+PASS
+[ 55%] Built target run-met_over
+[ 56%] Linking CXX executable new-invalid2
+[ 57%] Built target new-invalid2
+PASS
+[ 57%] Built target run-new-invalid2
+[ 57%] Linking CXX executable new-invalid
+[ 58%] Built target new-invalid
+PASS
+[ 58%] Built target run-new-invalid
+[ 59%] Linking CXX executable op_mismatch1
+[ 60%] Built target op_mismatch1
+PASS
+[ 60%] Built target run-op_mismatch1
+[ 60%] Linking CXX executable op_mismatch2
+[ 61%] Built target op_mismatch2
+PASS
+[ 61%] Built target run-op_mismatch2
+[ 62%] Linking CXX executable op_mismatch3
+[ 63%] Built target op_mismatch3
+Object ** Cons
+Object ** Int
+PASS
+[ 63%] Built target run-op_mismatch3
+[ 64%] Linking CXX executable op_mismatch4
+[ 65%] Built target op_mismatch4
+String ** String
+Void ** String
+Int ** Int
+String ** String
+PASS
+[ 65%] Built target run-op_mismatch4
+[ 65%] Linking CXX executable op_mismatch5
+[ 66%] Built target op_mismatch5
+String ** String
+Void ** String
+Int ** Int
+String ** String
+PASS
+[ 66%] Built target run-op_mismatch5
+[ 67%] Linking CXX executable param_mismatch2
+[ 68%] Built target param_mismatch2
+Int ** Int
+PASS
+[ 68%] Built target run-param_mismatch2
+[ 68%] Linking CXX executable param_mismatch3
+[ 69%] Built target param_mismatch3
+Int ** Int
+PASS
+[ 69%] Built target run-param_mismatch3
+[ 69%] Linking CXX executable param_mismatch4
+[ 71%] Built target param_mismatch4
+Int ** Int
+Void ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+int ** intModel
+PASS
+[ 71%] Built target run-param_mismatch4
+[ 72%] Linking CXX executable param_mismatch5
+[ 73%] Built target param_mismatch5
+String ** String
+Void ** String
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** Int
+String ** String
+Int ** Int
+Int ** Int
+IntStr ** Int
+PASS
+[ 73%] Built target run-param_mismatch5
+[ 74%] Linking CXX executable param_mismatch6
+[ 75%] Built target param_mismatch6
+Int ** Int
+Int ** Int
+Object ** Main
+Object ** Null
+Int ** Void
+PASS
+[ 75%] Built target run-param_mismatch6
+[ 75%] Linking CXX executable param_mismatch
+[ 77%] Built target param_mismatch
+Int ** Int
+Int ** Int
+Int ** Int
+Int ** String
+PASS
+[ 77%] Built target run-param_mismatch
+[ 77%] Linking CXX executable parent_int
+[ 78%] Built target parent_int
+PASS
+[ 78%] Built target run-parent_int
+[ 79%] Linking CXX executable parent_loop
+[ 80%] Built target parent_loop
+PASS
+[ 80%] Built target run-parent_loop
+[ 81%] Linking CXX executable parent_miss
+[ 82%] Built target parent_miss
+PASS
+[ 82%] Built target run-parent_miss
+[ 82%] Linking CXX executable parent_same
+[ 83%] Built target parent_same
+PASS
+[ 83%] Built target run-parent_same
+[ 84%] Linking CXX executable parent_string
+[ 85%] Built target parent_string
+PASS
+[ 85%] Built target run-parent_string
+[ 85%] Linking CXX executable return_mismatch2
+[ 86%] Built target return_mismatch2
+Int ** Int
+String ** String
+Int ** Void
+PASS
+[ 86%] Built target run-return_mismatch2
+[ 87%] Linking CXX executable return_mismatch3
+[ 88%] Built target return_mismatch3
+String ** String
+String ** String
+Line ** Circle
+PASS
+[ 88%] Built target run-return_mismatch3
+[ 89%] Linking CXX executable return_mismatch5
+[ 90%] Built target return_mismatch5
+String ** String
+Void ** String
+Int ** Int
+Int ** String
+PASS
+[ 90%] Built target run-return_mismatch5
+[ 90%] Linking CXX executable return_mismatch6
+[ 91%] Built target return_mismatch6
+Void ** Int
+String ** Void
+PASS
+[ 91%] Built target run-return_mismatch6
+[ 91%] Linking CXX executable return_mismatch8
+[ 93%] Built target return_mismatch8
+Int ** String
+PASS
+[ 93%] Built target run-return_mismatch8
+[ 94%] Linking CXX executable return_mismatch
+[ 95%] Built target return_mismatch
+Int ** Int
+Void ** Int
+String ** Void
+PASS
+[ 95%] Built target run-return_mismatch
+[ 95%] Linking CXX executable type-miss2
+[ 97%] Built target type-miss2
+Int ** Int
+String ** String
+String ** String
+String ** String
+PASS
+[ 97%] Built target run-type-miss2
+[ 98%] Linking CXX executable type-miss3
+[ 99%] Built target type-miss3
+Int ** Int
+String ** String
+PASS
+[ 99%] Built target run-type-miss3
+[ 99%] Linking CXX executable type-miss
+[100%] Built target type-miss
+PASS
+[100%] Built target run-type-miss
+[100%] Built target run-all

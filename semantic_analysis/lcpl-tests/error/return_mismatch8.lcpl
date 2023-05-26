@@ -1,0 +1,6 @@
+class Main inherits IO
+    value -> Int : "Ana are compilatoare"; end;
+    main :
+        [out [value]];
+    end;
+end;

@@ -1,0 +1,217 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "Main",
+            "Parent": "ph",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 3,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 4,
+                                "LineNumber": 3,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 5,
+                                        "LineNumber": 3,
+                                        "Name": "val",
+                                        "Object": {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 6,
+                                            "LineNumber": 3,
+                                            "Name": "x"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 7,
+            "LineNumber": 7,
+            "Name": "ph",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 8,
+                    "LineNumber": 9,
+                    "Name": "x",
+                    "Type": "x",
+                    "Initializer": {
+                        "NodeType": "NewObject",
+                        "NodeID": 9,
+                        "LineNumber": 9,
+                        "Type": "x"
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 10,
+            "LineNumber": 13,
+            "Name": "r",
+            "Parent": "p",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 11,
+                    "LineNumber": 14,
+                    "Name": "the_value",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 12,
+                        "LineNumber": 14,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 13,
+                                "LineNumber": 14,
+                                "Value": 4
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 14,
+            "LineNumber": 17,
+            "Name": "q",
+            "Parent": "r",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 15,
+                    "LineNumber": 18,
+                    "Name": "value",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 16,
+                        "LineNumber": 18,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 17,
+                                "LineNumber": 18,
+                                "Value": 4
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 18,
+            "LineNumber": 21,
+            "Name": "p",
+            "Parent": "q",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 19,
+                    "LineNumber": 22,
+                    "Name": "val",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 20,
+                        "LineNumber": 22,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 21,
+                                "LineNumber": 22,
+                                "Value": 4
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 22,
+            "LineNumber": 25,
+            "Name": "t",
+            "Parent": "p",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 23,
+                    "LineNumber": 26,
+                    "Name": "myValue",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 24,
+                        "LineNumber": 26,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 25,
+                                "LineNumber": 26,
+                                "Value": 4
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 26,
+            "LineNumber": 29,
+            "Name": "x",
+            "Parent": "t",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 27,
+                    "LineNumber": 30,
+                    "Name": "last_value",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 28,
+                        "LineNumber": 30,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 29,
+                                "LineNumber": 30,
+                                "Value": 4
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+/usr/local/bin/g++-5    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/parent_same.dir/__/TestRig.cpp.o CMakeFiles/parent_same.dir/parent_sameTestRig.cpp.o  -o parent_same  ../../liblcpl-semant.a 
