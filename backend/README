@@ -1,0 +1,12 @@
+Radu Vlad Rares - 341 C3
+
+	Backend
+
+		Filled in CplInstrInfo.td the instructions that make up the set of instructions and added their specific patterns to CplPatterns.td.
+
+		I've added the registers according to the calling convention.
+
+		Add to SP, Ammount to know how much space to allocate on the stack and then copy the value from the source register to the destination register.
+
+		For indirect function calls, I save the PC in LR, and then I deposit the result of the OR operation in the PC registry. For the return of an LR
+		transfer function in PC using the OR operation. I also added to the CplRegisterInfo class the getPcRegister function that returns the R15 register.
